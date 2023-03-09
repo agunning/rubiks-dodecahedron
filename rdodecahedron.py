@@ -116,7 +116,7 @@ axes=np.array([
     [-1,-phi,0],
     [0,-1,-phi]])
 
-clist=np.array([(1,0,1),(0,1,0),(0,0,1),(1,1,0),(1,0,0),(0,1,1)])
+clist=np.array([(0,1,1),(0,1,0),(0,0,1),(1,0,1),(1,1,0),(1,0,0)])
 class RubiksDodecahedron():
     def __init__(self,turn_speed=.2):
         self.BlockList=[
