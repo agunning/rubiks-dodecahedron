@@ -101,20 +101,20 @@ class PentagonBlock(scene.visuals.Mesh):
         self.transform=MatrixTransform(transform)
 
 
-keys=['123QWEASDZXC','456RTYFGHVBN']
+keys=['3QWERTASDFGC','8YUIOPHJKL;,']
 axes=np.array([
     [phi,0,1],
     [1,phi,0],
     [0,1,phi],
+    [0,-1,phi],
+    [1,-phi,0],
     [phi,0,-1],
     [-1,phi,0],
-    [0,-1,phi],
-    [0,1,-phi],
     [-phi,0,1],
-    [1,-phi,0],
-    [-phi,0,-1],
     [-1,-phi,0],
-    [0,-1,-phi]])
+    [0,-1,-phi],    
+    [0,1,-phi],
+    [-phi,0,-1],])
 
 clist=np.array([(0,1,1),(0,1,0),(0,0,1),(1,0,1),(1,1,0),(1,0,0)])
 class RubiksDodecahedron():
