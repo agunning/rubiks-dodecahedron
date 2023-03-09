@@ -101,7 +101,7 @@ class PentagonBlock(scene.visuals.Mesh):
         self.transform=MatrixTransform(transform)
 
 
-keys=['3QWERTASDFGC','8YUIOPHJKL;,']
+keys=['8YUIOPHJKL;,','3QWERTASDFGC']
 axes=np.array([
     [phi,0,1],
     [1,phi,0],
