@@ -6,7 +6,7 @@ from vispy.visuals.transforms import MatrixTransform
 import time
 from vispy.scene.visuals import Text
 from vispy.visuals.filters import ShadingFilter
-import transforms as tr
+import math_dependencies as tr
 phi=(1+np.sqrt(5))/2
 
 canvas = scene.SceneCanvas(keys='interactive', size=(600, 600), show=True)
